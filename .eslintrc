@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "@nuxtjs/eslint-config-typescript",
+        "plugin:nuxt/recommended"
+        // "@antfu"
+    ],
+    "rules": {
+        // "@typescript-eslint/consistent-type-imports": "off",
+        // "vue/no-deprecated-slot-attribute": "off",
+        // "vue/no-reserved-component-names": "off",
+        "vue/multi-word-component-names": "off",
+        "semi": ["error", "always"],
+        "curly": ["error", "multi-line"],
+        "no-console": "off"
+    }
+}
