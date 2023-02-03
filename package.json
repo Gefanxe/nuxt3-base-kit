@@ -1,7 +1,7 @@
 {
   "private": true,
   "engines": {
-    "node": "^16.11.0 || ^17.0.0 || || ^18.0.0"
+    "node": ">=16 <17"
   },
   "scripts": {
     "dev": "nuxi dev --dotenv .env.development",
