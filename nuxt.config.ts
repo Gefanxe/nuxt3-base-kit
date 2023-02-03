@@ -46,7 +46,7 @@ export default defineNuxtConfig({
     baseUrl: process.env.BASE_URL,
     locales: [
       {
-        code: 'zh',
+        code: 'tw',
         file: 'zh-TW.json',
         iso: 'zh-TW',
         name: '繁體中文',
@@ -67,7 +67,7 @@ export default defineNuxtConfig({
         flag: 'i-twemoji-flag-turkey'
       }
     ],
-    defaultLocale: 'zh',
+    defaultLocale: 'tw',
     lazy: true,
     langDir: 'locales/',
     /*
@@ -85,10 +85,10 @@ export default defineNuxtConfig({
       redirectOn: 'root' // recommended
     },
     vueI18n: {
-      legacy: false,
-      locale: 'tr',
-      fallbackLocale: 'tr',
-      availableLocales: ['en', 'tr']
+      legacy: false, // 關閉使用較舊的 API 模式。
+      locale: 'tw',
+      fallbackLocale: ['tw', 'en'], // 後備區域設置, 參考: https://i18n.nuxtjs.org/locale-fallback
+      availableLocales: ['tw', 'en']
     }
   },
 
