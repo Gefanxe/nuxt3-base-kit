@@ -14,7 +14,7 @@ definePageMeta({
 </script>
 <template>
   <div>
-    No Layout
+    No Layout.
     <hr>
     <i18n-t keypath="seeMoreOn">
       <template #newline>
